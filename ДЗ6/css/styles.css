@@ -1,0 +1,327 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+
+height: 114px;
+width: 100%;
+margin: 0 auto; 
+padding: 30px 36px ;
+}
+
+body
+{
+    background-color: #181E34;
+    line-height: 150%;
+    color: #f0f0f0;
+    font-family: "Montserrat","Arial",sans-serif;
+
+
+}
+
+.container{
+    
+    max-width: 930px;
+    height: 100%;
+    padding: 0px 15px;
+    
+    margin: 0 auto;
+    
+}
+
+.header-inner
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav
+{
+    margin-left: auto;
+}
+
+.logo
+{
+    margin-right:100 px;
+}
+.menu
+{
+display: flex;
+gap: 30px; 
+list-style: none;
+align-items: center;
+
+}
+
+.header-item
+{
+    margin-right: 30px ;
+}
+
+.header-button
+{
+color: #2766AE;
+background-color: white;
+border-radius: 100px;
+padding: 14px 30px;
+font-weight: 500px;
+}
+.btnMain
+{
+    width: 113px;
+    height: 48px;
+    color: rgb(77, 77, 223);
+
+}
+.btn 
+{
+width: 100%;
+box-sizing: border-box;
+
+border: 0.5px solid #f0f0f0;
+
+
+
+width: 113px;
+height: 48px;
+
+}
+
+.hero
+{
+width:100%;
+height: 600px;
+background: url('../img/hero-bg.jpg') 20% 50%/ cover no-repeat;
+padding: 120px 0px;
+
+}
+
+.img 
+{
+    width: 1440px;
+    height: 508px;
+}
+
+.txt
+{
+
+height:49px;
+max-width: 269px;
+margin: 0 auto;
+
+}
+
+.txt1
+{
+
+font-weight: 600;
+font-size: 40px;
+text-transform: uppercase;
+line-height: 49px;
+text-align: center;
+
+margin-bottom: 60px;
+
+}
+.hero-main
+{
+    display: flex;
+    width: 900px;
+    height: 159px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 230px;
+    margin: 0 auto;
+}
+.hero-txt
+{
+    
+max-width: 436px;
+
+}
+.hero-txt span
+{
+text-transform: uppercase;
+font-weight: 700;
+color: #01A2CB;
+}
+.Lorem1
+{
+margin-bottom:15px;
+}
+.buttons
+{
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  width: 100%;
+  text-align: center;
+}
+.hero-button-one, .hero-button-two
+{
+border-radius: 100px;
+padding: 18px 30px;
+
+height: 56px;
+background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+display: flex;
+justify-content: center;
+}
+.hero-button-one img,.hero-button-two img
+{
+    margin-left: 4px;
+
+}
+
+.bottom
+{
+    margin-bottom: 10px;
+}
+
+
+.hero-txt
+{
+width: 436px;
+height: 159px;
+}
+
+.screen2
+{
+padding: 120px 0;
+
+}
+
+.txt2
+{ 
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+
+
+}
+
+.secondTxt
+{
+
+text-align: center;
+    max-width: 513px;
+    margin: 0 auto 60px;
+}
+
+
+
+.cards {
+    padding: 120px 0;
+}
+
+.cards-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.cards-text {
+    text-align: center;
+    max-width: 513px;
+    margin: 0 auto 60px;
+}
+
+.cards-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -14px;
+    margin-bottom: -28px;
+    padding-bottom: 30px;
+}
+
+.cards-flex-item {
+    margin-bottom: 28px;
+    padding: 0 14px;
+    flex: 0 0 25%;
+}
+
+.cards-flex-inner {
+    background: #197CB8;
+    border: 2px solid #176BAE;
+    box-shadow: 4px 4px 13px rgba(5, 13, 41, 0.76);
+    border-radius: 16px;
+    padding: 28px 15px;
+}
+
+.cards-flex-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.cards-flex-text {
+    text-align: center;
+}
+
+.cards-button {
+    display: block;
+    border-radius: 100px;
+    padding: 18px 30px;
+    background: linear-gradient(180deg, #00A4CC 0%, #2766AE 100%);
+    text-align: center;
+    max-width: 436px;
+    margin: 0 auto;
+}
+
+
+
+.footer {
+    border-top: 1px solid #323952;
+    padding: 60px 0;
+}
+
+.footer-inner {
+    display: flex;
+}
+
+.footer-desc {
+    max-width: 267px;
+    margin-right: auto;
+}
+
+.footer-desc a {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.footer-col {
+    max-width: 204px;
+    width: 100%;
+}
+
+.footer-col-margin {
+    margin-right: 28px;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-item {
+    margin-bottom: 10px;
+}

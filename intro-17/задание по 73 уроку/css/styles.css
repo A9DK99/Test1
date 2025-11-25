@@ -1,0 +1,55 @@
+body {
+    background-color: #1a1a1c;
+    color: #fff;
+   
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;      /* растягивает wrapper на весь экран */
+    width: 100vw;       /* ВАЖНО: занимает всю ширину */
+}
+
+.box {
+    background: #3b3a3d;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7de07d;
+    font-size: 30px;
+}
+
+.box span {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+
+.box__scale {
+    position: absolute;
+    opacity: 0;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%); /* строго по центру */
+    width: 600px;
+    height: 30px;
+    background: #fff;
+    
+
+}
+
+/* Анимация при наведении */
+.box:hover .box__scale {
+    opacity: 1; 
+    transform: translateX(-50%) translateX(-50px);
+}
+
+.box:hover span {
+    opacity: 1;
+}

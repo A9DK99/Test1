@@ -1,0 +1,44 @@
+body {
+    background-color: #1a1a1c;
+    color: #fff;
+   
+}
+
+.wrapper {
+    
+}
+
+.box {
+    position:fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+    background: #3b3a3d;
+    width: 600px;
+    height: 200px;
+    color: #7de07d;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.textoriginal {
+    position: static;
+    opacity: 1;
+    transition: 0.3s;
+    font-size: 20px;
+    height: 100vh;      /* растягивает wrapper на весь экран */
+    width: 100vw;       /* ВАЖНО: занимает всю ширину */
+}
+
+.red
+{
+    position: relative;
+    border-radius: 100%;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    left:70px;
+    top:-50px;
+}
+
+

@@ -1,0 +1,60 @@
+body
+{
+    font-family: sans-serif;
+   
+}
+
+.block{
+
+display: grid;
+grid-template-columns: 1fr;
+
+max-width: 400px;
+height: 500px;
+
+
+}
+
+
+
+
+.field
+{
+    border-radius: 3%;
+    background-color: aliceblue;
+}
+
+input
+{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+textarea
+{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: vertical;
+    max-height: 100px;
+    border-radius: 5px;
+}
+
+.btn
+{
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #0f2fa4;
+
+}
+
+.checkbox
+
+{
+    display: flex;
+    gap: 8px;
+}
